@@ -57,7 +57,7 @@
 # Amazon Aurora
 
 * Proprietary AWS technology
-* Aurora is AWS CLoud optimised and claims better performance than other solutions
+* Aurora is AWS Cloud optimised and claims better performance than other solutions
 * Aurora automatically grows in increments of 10GB as required
 * Postgres and MySQL supported as aurora
 * High availability and read scaling

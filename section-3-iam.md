@@ -35,14 +35,14 @@
 * IAM Roles - a way of defining permissions to be applied to AWS services.
 
 * IAM security tools
-  * Credentials report - account's users and their credential's statuses.
-  * Access advisor - permissions granted to a users and when services were last accessed.
+  * Credentials Report - account's users and their credential's statuses.
+  * Access Advisor - permissions granted to a user and when services were last accessed.
 
 * IAM best practices
   * Only use root account for AWS setup, nothing else
   * One physical user = 1 AWS user
   * Assign users to groups and apply permissions to groups
-  * Strong password polivy
+  * Strong password policy
   * User MFA
   * User roles for giving permissions to AWS services
   * Use access keys for programmatic access to AWS

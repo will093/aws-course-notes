@@ -10,8 +10,7 @@ If you want to control how instances are placed then you can use these.
 3 strategies:
 
 * Cluster - low latency group in a single AZ
-  * Use case: Big data (fast job) andApplication needinglow latency and high throughput
-* 
+  * Use case: Big data (fast job) and application needing low latency and high throughput
 * Spread - spreads instances across a region (max 7 instances per group per AZ)
   * Can spread across AZs
   * Reduced risk of simultanesous failure

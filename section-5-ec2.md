@@ -21,15 +21,15 @@ This consists of:
   * Distributed web scale cache stores
 
 * Storage optimised
-  * Good for cache for in memory DBs, relational/non-relational DBs
+  * Good for cache for in memory DBs (not the dbs themselves though which need RAM?), relational/non-relational DBs
   * Distributed file systems
   * High volume OLTP application
 
 # Security Groups
 
 * Control how traffic allowed into or out of EC2 instances
-* Only contain allow rules
-* Rules xan refrence by IP or by security group
+* Only contain allow rules. ONly contain Allow rules.
+* Rules can refrence by IP or by security group
 
 Security groups act as a firewall on EC2 instances, regulate:
 
@@ -90,7 +90,7 @@ Don't log in as a user inside of EC2 (or other services), apply permissions dire
 * If the spot  price goes over max you have a 2 minute grace period to stop/terminate the instance
 * Spot block - get a spot instance for 1-6 hours uninterupted
 
-Spot request object contains:
+# Spot request object contains:
   * Max prices
   * Desired no of instances
   * Launch specification
@@ -99,7 +99,7 @@ Spot request object contains:
     * Persistant - will continue to start instances if some get stopped and the request is still valid
   * Validity... from - until
 
-Spot fleets
+# Spot fleets
 
 * Set of spot instances + on demand instances
 

@@ -86,7 +86,7 @@ Use cases:
   * Default - frequently accessed data
   * Low latency, high throughput
   * Sustain 2 concurrent facility failures
-* S3 standard - inrequent access
+* S3 standard - infrequent access
   * Infrequent access, rapid access when needed
 * S3 one zone-infrequent access
   * Lost if zone destroyed, less available

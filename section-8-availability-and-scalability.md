@@ -7,7 +7,7 @@
 
 * Vertical scaling - increasing instance size (scale up/down)
 
-* Passive high availability - RDS multi AZ (TODO:????)
+* Passive high availability - RDS multi AZ
 * Active high availability - horizontal scaling
 
 
